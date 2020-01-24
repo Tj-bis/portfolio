@@ -1,72 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--FONTS-->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!--FONTS-->
+		<link
+			href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+			rel="stylesheet"
+		/>
 
-  <!--FAVICON-->
-  <link rel="icon" href="images/favicon.ico">
+		<!--FAVICON-->
+		<link rel="icon" href="images/favicon.ico" />
 
-  <!--BOOTSTRAP-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<!--BOOTSTRAP-->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
 
-  <!--CSS-->
-  <link rel="stylesheet" href="css/style.css">
-  
-  <title>Jane Trajkoski</title>
-</head>
-<body>
-  <div id="top-container">
-    <img src="images/cloud.svg" class="cloud-top" alt="cloud-img">
-    <h1>I'm Jane.</h1>
-    <h2 class="desc">a web developer</h2>
-    <img src="images/cloud12.svg" class="cloud-bottom" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/man.png" alt="avatar-img" class="avatar">
-      <h2>Hello.</h2>
-      <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="computer" src="images/computer.png" alt="computer-img">
-        <h3>Lorem & Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+		<!--CSS-->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<title>Jane Trajkoski - A Web Developer</title>
+	</head>
+	<body>
+    <!--TOP SECTION-->
+		<section id="top-container">
+      <div class="navContainer">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"> <img src="images/av1.png" alt="avatar-img" class="navBrand"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notes</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <div class="skill-row">
-        <img class="chilli" src="images/chillies.png" alt="chilli-img">
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn" href="mailto:jane.trajkoski@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
-  
-  
-  <div id="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="copyright">© 2020 Jane Trajkoski.</p>
-  </div>
-  
+      
+      <img src="images/cloud.svg" class="cloud-top" alt="cloud-img">
+      <h1>I'm Jane.</h1>
+      <h2 class="desc">a web developer</h2>
+      <img src="images/cloud12.svg" class="cloud-bottom" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img" class="mountain">
+    </section>
 
-  </div>
-</body>
+
+
+    <!--MIDDLE SECTION-->
+
+
+    <section id="middle-container">
+      <div class="profile">
+        <img src="images/me.png" alt="avatar-img" class="avatar">
+        <h2>Hello.</h2>
+        <p class="intro">I am a Web Developer based in Prilep, North Macedonia. I have a passion for web development love to be challenged.</p>
+      </div>
+      <hr>
+
+      <div class="row skills">
+        <h2>What I Can Do.</h2>
+        <div class="col-md-12">
+          <!--SKILL ROW 1-->
+          <div class="row">
+            <div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1">
+              <img class="webpage" src="images/front-end.png" alt="webpage-img">
+            </div>
+            <div class="col-md-6 col-sm-6 front">
+              <h3>Front-End Design</h3>
+              <p>I like to keep things simple. My focus is on conveying the message that YOU want to send without overwhelming the user in his/her experience.</p>
+            </div>
+          </div>
+          <!--SKILL ROW 2-->
+          <div class="row">
+            <div class="col-md-6 col-sm-6 backend">
+              <h3>Back-End Development</h3>
+              <p>I am a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <img class="backend-p" src="images/backend.png" alt="backend-prog-img">
+            </div>
+          </div>
+        </div>
+ 
+      
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:jane.trajkoski@gmail.com">CONTACT ME</a>
+      </div>
+    </section>
+
+
+
+    <!--BOTTOM SECTION-->
+    
+    <section id="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2020 Jane Trajkoski.</p>
+    </section>
+    
+	</body>
 </html>
