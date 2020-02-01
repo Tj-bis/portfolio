@@ -139,9 +139,16 @@ hr {
   text-align: left;
  }
  .backend-p{
-   margin-left: 210px;
-   
+   left: 33.33333%;
  }
+
+ .navbar-light .navbar-nav .nav-link {
+  color: #66BFBF;
+  font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #11999E;
+}
 
 .btn {
   background-color: #11999E; 
@@ -171,7 +178,7 @@ hr {
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
   .cloud-bottom {
     display: none;
   }
@@ -184,6 +191,19 @@ hr {
     width: 100%;
     height: auto;
   }
+  .backend-p {
+    text-align: center;
+  }
+  .backend {
+    text-align: center;
+  }
+  .front {
+    text-align: center;
+  }
+  .par {
+    /* max-width: 90%; */
+    padding-left: 30px;
+  }
 }
 
 @media only screen and (min-width: 1200px){
@@ -193,11 +213,5 @@ hr {
   }
 }
 
-@media (min-width: 600px){
-  .col-md-offset-2 {
-    margin-left: 8.33333333%;
-  }
-  .backend {
-    left: 15%;
-  }
-}
+
+
