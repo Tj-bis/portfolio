@@ -146,13 +146,18 @@ hr {
 .row {
 	margin: 1.5em auto 0em auto;
 }
+.front-con {
+  margin-bottom: 50px;
+}
 .backend {
 	text-align: left;
 }
 .backend-p {
 	left: 33.33333%;
 }
-
+.backend-con {
+  margin-bottom: 15px;
+}
 .navbar-light .navbar-nav .nav-link {
 	color: #66bfbf;
 	font-weight: 700;
