@@ -8,7 +8,9 @@
 		<link
 			href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
 			rel="stylesheet"
-		/>
+    />
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!--FAVICON-->
 		<link rel="icon" href="images/favicon.ico" />
@@ -34,7 +36,11 @@
 			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 			crossorigin="anonymous"
-		></script>
+    ></script>
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/portfolio.js"></script>
+ 
 
 		<!--CSS-->
 		<link rel="stylesheet" href="css/style.css" />
@@ -42,6 +48,8 @@
 		<title>Jane Trajkoski - A Web Developer</title>
 	</head>
 	<body>
+    <a id="button"></a>
+
     <!--TOP SECTION-->
 		<section id="top-container">
        <!--NAVBAR-->
@@ -74,8 +82,7 @@
       <img src="images/mountain.png" alt="mountain-img" class="mountain">
     </section>
 
-
-
+    
     <!--MIDDLE SECTION-->
 
 
@@ -88,7 +95,7 @@
       <hr>
 
       <div class="row skills">
-        <h2>What I Can Do</h2>
+        <h2 class="ican">What I Can Do</h2>
         <div class="col-md-12">
           <!--SKILL ROW 1-->
           <div class="row">
@@ -129,9 +136,11 @@
     <!--BOTTOM SECTION-->
     
     <section id="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <div class="social">
+      <a href="https://www.linkedin.com/in/t-jane/" ><img src="images/linkedin.png" class="linked"></img></a>
+      <a href="https://github.com/Tj-bis"><img src="images/github.png" class="git"></img></a>
+      <a class="footer-link" href="mailto:jane.trajkoski@gmail.com">Hire Me</a>
+    </div>
       <p class="copyright">© 2020 Jane Trajkoski.</p>
     </section>
     

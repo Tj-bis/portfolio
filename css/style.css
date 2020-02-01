@@ -43,7 +43,7 @@ p {
 .footer-link {
   font-weight: bold;
   text-decoration: none;
-  padding: 30px;
+  padding: 15px;
 }
 
 .copyright {
@@ -110,9 +110,7 @@ hr {
   width: 50%;
   margin: 50px auto 50px auto;
   text-align: left;
-  
 }
-
 .cloud-bottom {
   position: absolute;
   width: 150px;
@@ -162,6 +160,57 @@ hr {
   font-size: 16px;
   margin: 25px auto 25px auto;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+#button {
+  display: inline-block;
+  background-color: #11999E;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.social {
+  margin: 0 auto;
+  position: relative;
+}
+.git{
+  width: 40px;
+  margin: 15px;
+}
+.linked{
+  width: 40px;
+  margin: 15px;
 }
 
 @media only screen and (max-width: 600px){
@@ -175,7 +224,6 @@ hr {
     width: 100%;
     height: auto;
   }
-
 }
 
 @media only screen and (max-width: 767px){
@@ -191,8 +239,11 @@ hr {
     width: 100%;
     height: auto;
   }
-  .backend-p {
-    text-align: center;
+  .backend-p{
+    margin-bottom: 30px;
+  }
+  .webpage {
+    margin-bottom: 30px;
   }
   .backend {
     text-align: center;
@@ -201,9 +252,18 @@ hr {
     text-align: center;
   }
   .par {
-    /* max-width: 90%; */
-    padding-left: 30px;
+    width: auto;
   }
+  .intro {
+    width: auto;
+  }
+  .row {
+    margin: 18px auto 30px auto;
+  }
+  h2{
+    margin-bottom: 12px;
+  }
+
 }
 
 @media only screen and (min-width: 1200px){
